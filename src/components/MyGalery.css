@@ -5,15 +5,29 @@
     height:1200px;
 }
 
-@media only screen and (min-width:319px) and (max-width:701px) {
+@media only screen and (min-width:439px) and (max-width:701px) {
     .content-gallery{
         background:#212121;
         font-family: 'Sacramento';
+        
         height:1000px;
     }
   
     
 }
+
+
+@media only screen and (min-width:319px) and (max-width:440px) {
+    .content-gallery{
+        background:#212121;
+        font-family: 'Sacramento';
+        
+        height:2000px;
+    }
+  
+    
+}
+
 
 
 @media only screen and (min-width:575px) and (max-width:701px) {
