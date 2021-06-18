@@ -26,7 +26,7 @@ const About = () => {
                             Instagram: @aquilaartz</p>
                         </div>
                         <div>
-                            <img className="undraw" src={undraw}></img>
+                            <img alt="undraw" className="undraw" src={undraw}></img>
                         </div>
                     </div>
                 </div>

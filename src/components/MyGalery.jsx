@@ -25,13 +25,13 @@ const MyGalery = () => {
             </div>
             <div className="container containe-pictures">
                 <div className="row div-pictures  row-cols-md-4 row-cols-xl-4 row-cols-lg-2">
-                    <Picture src={art1} name='Cover Art "na onda"'></Picture>
-                        <Picture src={art2} name="Participação em concurso"></Picture>
-                        <Picture src={art3} name="Xamã Fanart"></Picture>
+                    <Picture alt={'Cover Art "na onda"'} src={art1} name='Cover Art "na onda"'></Picture>
+                        <Picture alt={"Participação em concurso"} src={art2} name="Participação em concurso"></Picture>
+                        <Picture alt={"Xamã Fanart"}  src={art3} name="Xamã Fanart"></Picture>
                  
-                        <Picture src={art4} name="One Piece Fanart"></Picture>
-                        <Picture src={art5} name="Duzz valorant fanart"></Picture>
-                        <Picture src={art6} name="Personal Chatacter"></Picture>
+                        <Picture alt={"One Piece Fanart"}  src={art4} name="One Piece Fanart"></Picture>
+                        <Picture alt={"Duzz valorant fanart"}  src={art5} name="Duzz valorant fanart"></Picture>
+                        <Picture alt={"Personal Chatacter"}  src={art6} name="Personal Chatacter"></Picture>
                     
                         
                    

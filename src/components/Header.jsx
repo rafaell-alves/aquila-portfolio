@@ -19,7 +19,7 @@ export default class Header extends Component {
   
 
 	   showToggleNav() {
-			if(this.state.isActive == false){
+			if(this.state.isActive === false){
 			this.setState({ isActive: true });
 			}else{
 				this.setState({ isActive: false });
@@ -40,9 +40,9 @@ export default class Header extends Component {
 		
     render() {
         return (
-            <nav className={this.state.navBar == true ?"navbar active" : "navbar"}>
+            <nav className={this.state.navBar === true ?"navbar active" : "navbar"}>
 					<div className="div-logo">
-						<img className="logo"src={logo}></img>
+						<img alt="logo" className="logo"src={logo}></img>
 
 					</div>
 				
@@ -54,9 +54,9 @@ export default class Header extends Component {
 					</ul>
 					</div>
 					<div className="hamburguer-menu">
-						<i className={this.state.isActive == true ? "fa fa-times" : "fa fa-bars"} isActive={this.state.isActive}  onClick={this.showToggleNav} aria-hidden="true"></i>
+						<i className={this.state.isActive === true ? "fa fa-times" : "fa fa-bars"} onClick={this.showToggleNav} aria-hidden="true"></i>
 					</div>				
-					<ul className={ this.state.isActive == true ? "nav-responsive" : "hidden"} >
+					<ul className={ this.state.isActive === true ? "nav-responsive" : "hidden"} >
 							<li><a href="#home">Home</a></li>
 							<li><a href="#sobre">Sobre</a></li>
 							<li><a href="#galeria">Galeria</a></li>

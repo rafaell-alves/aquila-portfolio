@@ -16,18 +16,18 @@ const Skills = () => {
             
             <div className="row">
                 
-                <img className="col-sm-3 col-3" src={alpaca}></img>
+                <img className="col-sm-3 col-3" alt="alpaca" src={alpaca}></img>
              
                 <div className="col-10 col-sm-6 row skills">
                 <h4 >Nivel de conhecimento:</h4>
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
                     
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
                     
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
                     
                     
-                    <img className="half-dot" src={half}></img>
+                    <img className="half-dot" alt="skills-half" src={half}></img>
                 </div>
             </div>
             
@@ -43,21 +43,21 @@ const Paint = () => {
             
             <div className="row">
                 
-                <img className="col-sm-3 col-3" src={paint}></img>
+                <img className="col-sm-3 col-3" alt="paint" src={paint}></img>
              
                 <div className="col-10 col-sm-6 row skills">
                 <h4 >Nivel de conhecimento:</h4>
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
                     
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
                     
-                    <img className="dot" src={circle}></img>
-                    
-                                        
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
                     
                                         
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
+                    
+                                        
+                    <img className="dot" alt="skills" src={circle}></img>
                     
                     
                 </div>
@@ -75,21 +75,21 @@ const Photoshop = () => {
             
             <div className="row">
                 
-                <img className="col-sm-3 col-3" src={photoshop}></img>
+                <img className="col-sm-3 col-3" alt="photoshop" src={photoshop}></img>
              
                 <div className="col-10 col-sm-6 row skills">
                 <h4 >Nivel de conhecimento:</h4>
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
                     
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
                     
-                    <img className="dot" src={circle}></img>
-                    
-                                        
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
                     
                                         
-                    <img className="dot" src={circle}></img>
+                    <img className="dot" alt="skills" src={circle}></img>
+                    
+                                        
+                    <img className="dot" alt="skills" src={circle}></img>
                     
                     
                 </div>
