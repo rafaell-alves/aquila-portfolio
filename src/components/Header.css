@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@font-face {
+    font-family: Sacramento;
+    src: url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+}
+
+.navbar{
+    background-color:#0B0B0C ;
+    font-family: 'Sacramento';
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar.active{
+    background-color:#293241 ;
+    font-family: 'Sacramento';
+    height: 58px;
+    width: 100%;
+    position: fixed;
+    
+}
+.navegation{
+    background-color:black ;
+    font-family: 'Sacramento';
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    width:200px;
+    height:54px;
+    margin-left: 40px;
+    padding: 0px;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.nav li{
+    margin-left: 60px;
+    font-size: 31px;
+  
+ 
+}
+.nav-default{
+    margin-bottom: 10px;
+
+}
+.nav li a{
+    padding: 0px;
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+.nav li a:hover{
+    transition-delay:0.1s;
+    border-bottom: solid 2px;
+    border-color: white;
+}
+.hamburguer-menu{
+    margin-bottom: 10px;
+    display: none;
+    margin-right: 30px;
+}
+.hamburguer-menu i{
+    font-size: 30px;
+    color: #FFFFFF;
+
+
+}
+.nav-responsive{
+    display: flex;
+    flex-direction: column;
+    background-color: #4b4b4d;
+    list-style-type: none;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.nav-responsive{
+    padding: 0;
+}
+.nav-responsive li{
+    text-align: center;
+    font-size: 31px;
+    border: 1px solid  ;
+    border-color: white;
+ 
+}
+.nav-responsive li a{
+    text-decoration:none;
+    color:black;
+}
+
+
+.nav-responsive li:hover{
+    background-color: #FFFFFF;
+    text-decoration:none;
+    
+    border-style:solid ;
+    width: 100%;
+    
+    color: white;
+}
+
+
+.nav-responsive li a:hover{
+    
+    border-bottom: solid 2px;
+    border-color: black;
+}
+
+.nav-responsive li a:active{
+    transition-delay:0.1s;
+    color: black;
+}
+
+.nav-responsive{
+    display: none;
+    font-size: 25px;
+}
+
+.hidden{
+    display: none;
+}
+
+@media only screen and (min-width:319px) and (max-width:703px) {
+        
+    .nav li{
+        margin-left: 60px;
+        font-size: 20px;
+    
+    }
+    
+    .hamburguer-menu{
+        display: block;
+    }
+    .nav-default{
+        display: none;
+    }
+    
+.nav-responsive{
+    display: block;
+    font-size: 25px;
+}
+}

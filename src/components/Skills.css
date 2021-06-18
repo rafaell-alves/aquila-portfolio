@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+
+.skill-div {
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    border-style: solid;
+    background: #0B0B0C;
+    border: 1px solid #FB3CFF;
+    filter: drop-shadow(1px 1px 5px #FB3CFF);
+    height: 100px;
+    width:430px;
+    margin-bottom: 30px;
+}
+.skill-div h4 {
+    color: #ffffff;
+}
+
+.dot{
+    height: 25px;
+    width:25px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.half-dot{
+    height: 25px;
+    width:10px;
+    margin: 0;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+
+
+@media only screen and (min-width:319px) and (max-width:575px) {
+    
+    .skill-div{
+        
+    width:300px;
+    height:60px;
+}
+    
+.skill-div h4 {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.dot{
+    height: 25px;
+    width:25px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.half-dot{
+    height: 25px;
+    width:10px;
+    margin: 0;
+    padding: 0px;
+    margin-left: 10px;
+}
+}

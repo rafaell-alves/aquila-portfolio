@@ -1,0 +1,43 @@
+.title{
+padding: 0;
+margin: 0;
+font-size: 35px; color: white;
+margin-top: 5px;
+text-shadow: 0px 0px 10px #FB3CFF;
+text-align: center;
+}
+
+.neon-sign{
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 250px;
+    border-style: solid;
+    background: transparent;
+    border: 1px solid #FB3CFF;
+    filter: drop-shadow(1px 1px 5px #FB3CFF);
+}
+
+
+@media only screen and (min-width:319px) and (max-width:575px) {
+    .title{
+        padding: 0;
+        margin: 0;
+        font-size: 25px; color: white;
+        margin-top: 5px;
+        text-shadow: 0px 0px 10px #FB3CFF;
+        text-align: center;
+        }
+        
+        .neon-sign{
+            margin:auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            width: 250px;
+            border-style: solid;
+            background: #0B0B0C;
+            border: 1px solid #FB3CFF;
+            filter: drop-shadow(1px 1px 5px #FB3CFF);
+        }
+
+}

@@ -1,0 +1,49 @@
+.div-art{
+    background-color: white;
+    width: 420px;
+}
+.div-art img{
+    margin-top: 20px;
+    width: 400px;
+
+}
+.div-art p{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+@media only screen and (min-width:319px) and (max-width:703px) {
+    .div-art{
+        background-color: white;
+        width: 220px;
+    }
+    .div-art img{
+        margin-top: 20px;
+        width: 200px;
+    
+    }
+    .div-art p{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width:702px) and (max-width:1030px) {
+    .div-art{
+        margin:auto;
+        background-color: white;
+        width: 520px;
+    }
+    .div-art img{
+        margin-top: 20px;
+        width: 500px;
+    
+    }
+    .div-art p{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+

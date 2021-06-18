@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@font-face {
+    font-family: Sacramento;
+    src: url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+}
+
+
+.content-home{
+    background-color: #0B0B0C;
+    font-family: 'Sacramento';
+    height:700px;
+    padding: 100px;
+}
+.div-content{
+    margin:auto;
+    width: 450px;
+}
+.div-content img{
+    margin: auto;
+    margin-left: 130px;
+    width: 200px;
+}
+.div-content h2{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    text-shadow: 0.5px 0.5px 3px #FB3CFF;
+}
+.div-name{
+    display: flex;
+    flex-direction: row;
+}
+.div-name h1{
+    text-align: center;
+    font-size: 85px;
+    color: white;
+    text-shadow: 0.5px 0.5px 3px #00BBF9;
+}
+.div-name img{
+    padding: 0px;
+    margin-top:5px;
+    margin-left:5px;
+    width: 80px;
+    height:80px;
+}
+
+@media only screen and (min-width:319px) and (max-width:575px) {
+
+    
+
+.content-home{
+    background-color: #0B0B0C;
+    font-family: 'Sacramento';
+    height:450px;
+    padding: 100px;
+}
+    .div-content{
+        margin:auto;
+        width:150px;
+    }
+    .div-content img{
+        margin: auto;
+        margin-left: 30px;
+        width:100px;
+    }
+    
+.div-content h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0.5px 0.5px 3px #FB3CFF;
+}
+.div-name{
+    display: flex;
+    flex-direction: row;
+}
+.div-name h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.div-name img{
+    padding: 0px;
+    margin-top:5px;
+    margin-left:5px;
+    width: 20px;
+    height:20px;
+}
+}

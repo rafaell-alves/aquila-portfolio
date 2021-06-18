@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+}
+
+.content-about{
+    background:linear-gradient(-26.3deg,#212121 50%,#0B0B0C 50%);
+    font-family: 'Sacramento';
+    height:740px;
+}
+.content-about p {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.undraw{
+   
+    width:600px;
+    height:400px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width:1200px) and (max-width:1350px) {
+    
+    .undraw{
+        margin-top:50px;
+        width: 600px;
+    }
+    }
+@media only screen and (min-width:992px) and (max-width:1200px){
+    
+.undraw{
+    margin-top: 75px;
+    width:450px;
+}
+}
+
+@media only screen and (min-width:922px) and (max-width:992px){
+
+        
+    .content-about{
+        background:linear-gradient(-28.3deg,#212121 50%,#0B0B0C 50%);
+        font-family: 'Sacramento';
+        height:1300px;
+    }
+        
+    .undraw{
+        margin-top: 45px;
+        width:550px;
+    }
+
+}
+
+
+@media only screen and (min-width:774px) and (max-width:922px) {
+    
+    .undraw{
+        margin-top: 20px;
+        width: 550px;
+    }
+
+        
+    .content-about{
+        background:linear-gradient(-28.3deg,#212121 50%,#0B0B0C 50%);
+        font-family: 'Sacramento';
+        height:1240px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:773px) {
+    
+    .undraw{
+        margin-top: 20px;
+        width: 500px;
+    }
+
+        
+    .content-about{
+        background:linear-gradient(-28.3deg,#212121 50%,#0B0B0C 50%);
+        font-family: 'Sacramento';
+        height:1240px;
+    }
+}
+
+
+@media only screen and (min-width:511px) and (max-width:576px) {
+       
+    .undraw{
+        margin-top: 20px;
+        margin-left:80px;
+        width: 260px;
+        height: 200px;
+    }
+        
+    .content-about p {
+        font-family: 'Roboto';
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width:319px) and (max-width:510px) {
+       
+    .undraw{
+        margin-top: 20px;
+        width: 260px;
+        height: 200px;
+    }
+        
+    .content-about p {
+        font-family: 'Roboto';
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+}
